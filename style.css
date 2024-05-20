@@ -9,7 +9,9 @@ body {
 .navbar {
     background-color: #343a40;
     padding: 10px;
-    position: sticky;
+position: sticky;
+    top: 0;
+    padding: 5px;
 }
 
 .navbar ul {
@@ -35,3 +37,51 @@ body {
 .navbar ul li a:hover {
     background-color: #495057;
 }
+.container1 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.container2 {
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 40px;
+    margin-top: 50px;
+    
+    
+}
+.container3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.container4 {
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.heading{
+    text-align: center;
+}
+ .cards {
+     background-color: rgb(92, 179, 255);
+     border: 1px solid black;
+     border-radius: 15px;
+     width: 200px;
+     height: 320px;
+     padding: 10px;
+     box-shadow: 0 0 8px 2px black;
+     margin: 10px;
+
+ }
+ .image {
+     width: 180px;
+     height: 280px;
+ }
