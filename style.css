@@ -9,7 +9,7 @@ body {
 .navbar {
     background-color: #343a40;
     padding: 10px;
-position: sticky;
+    position: sticky;
     top: 0;
     padding: 5px;
 }
@@ -37,6 +37,7 @@ position: sticky;
 .navbar ul li a:hover {
     background-color: #495057;
 }
+
 .container1 {
     text-align: center;
     display: flex;
@@ -44,15 +45,17 @@ position: sticky;
     margin-left: 40px;
     margin-top: 50px;
 }
+
 .container2 {
     text-align: center;
     display: flex;
     flex-direction: row-reverse;
     margin-left: 40px;
     margin-top: 50px;
-    
-    
+
+
 }
+
 .container3 {
     text-align: center;
     display: flex;
@@ -60,6 +63,7 @@ position: sticky;
     margin-left: 40px;
     margin-top: 50px;
 }
+
 .container4 {
     text-align: center;
     display: flex;
@@ -67,21 +71,78 @@ position: sticky;
     margin-left: 40px;
     margin-top: 50px;
 }
-.heading{
+
+.container5 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 5px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.container6 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 5px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.container7 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    padding: 5px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.container8 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    padding: 5px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.container9 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    padding: 5px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.container10 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    padding: 5px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.heading {
     text-align: center;
 }
- .cards {
-     background-color: rgb(92, 179, 255);
-     border: 1px solid black;
-     border-radius: 15px;
-     width: 200px;
-     height: 320px;
-     padding: 10px;
-     box-shadow: 0 0 8px 2px black;
-     margin: 10px;
+.cards {
+    background-color: rgb(92, 179, 255);
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 200px;
+    height: 320px;
+    padding: 10px;
+    box-shadow: 0 0 8px 2px black;
+    margin: 10px;
 
- }
- .image {
-     width: 180px;
-     height: 280px;
- }
+}
+
+.image {
+    width: 180px;
+    height: 280px;
+}
