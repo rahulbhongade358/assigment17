@@ -19,7 +19,9 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 }
 
 .navbar ul li {
@@ -145,4 +147,54 @@ body {
 .image {
     width: 180px;
     height: 280px;
+}
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-content ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+
+    position: relative;
+    top: 40px;
+    text-align: end;
+}
+
+.logo img {
+    height: 20px;
 }
